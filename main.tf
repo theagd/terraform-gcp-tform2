@@ -1,6 +1,6 @@
 terraform {
     backend "gcs" { 
-      bucket  = "alex-cicd-bucket"
+      bucket  = "alex-cicd-bucket2"
       prefix  = "prod"
     }
 }
